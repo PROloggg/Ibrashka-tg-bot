@@ -1,0 +1,7 @@
+services:
+  go-app:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    volumes:
+      - ./app:/app
